@@ -10,7 +10,7 @@ namespace Prime.Services
             {
                 return false; 
             }
-            throw new NotImplementedException("Not fully implemented."); // Placeholder for further implementation.
+            throw new NotImplementedException("Not fully implemented."); 
         }
     }
 }
