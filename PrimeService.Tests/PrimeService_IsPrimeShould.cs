@@ -20,7 +20,7 @@ namespace Prime.UnitTests.Services
         public void IsPrime_ValuesLessThan2_ReturnFalse(int value)
         {
             bool result = _primeService.IsPrime(value);
-            Assert.False(result, $"{value} should not be prime"); // Asserts that none of these values are prime.
+            Assert.False(result, $"{value} should not be prime"); 
         }
     }
 }
